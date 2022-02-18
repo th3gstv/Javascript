@@ -1,0 +1,17 @@
+#operation{
+  padding: 10px;
+  border-color: black;
+}
+
+.number1{
+  padding: 10px;
+  border: 1px solid black;
+}
+.number2{
+  padding: 10px;
+  border: 1px solid black;
+}
+.make{
+  padding: 10px;
+  cursor: pointer;
+}
