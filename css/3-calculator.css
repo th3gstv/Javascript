@@ -1,8 +1,3 @@
-#operation{
-  padding: 10px;
-  border-color: black;
-}
-
 .number1{
   padding: 10px;
   border: 1px solid black;
@@ -11,7 +6,17 @@
   padding: 10px;
   border: 1px solid black;
 }
-.make{
+select{
+  padding: 10px;
+  border: 1px solid black;
+}
+button{
   padding: 10px;
   cursor: pointer;
+  background: none;
+  color: black;
+  border: 1px solid black;  
+}
+button:hover{
+  background: rgb(233, 231, 231);
 }

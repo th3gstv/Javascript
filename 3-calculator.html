@@ -8,26 +8,24 @@
   <body>
     <center><h1>Calculator</h1></center>
 
-    <br>
-
-    <input class="number1" type="number" min="1" value="1" name="first"/>
-    <select id="operation">
+    <input class="number1" type="number" min="1" value="1"/>
+    
+    <select id="operator">
       <option value="+">+</option>
       <option value="-">-</option>
       <option value="*">*</option>
       <option value="/">/</option>
     </select>
-    <input class="number2" type="number" min="1" value="1" name="second"/>
-    
+
+    <input class="number2" type="number" min="1" value="1"/>
+
     <b id="result">
       0
-    </b >
-    
+    </b>
     <br><br>
-
-    <button onclick="make()">Calculate</button>
-
-
+    <button onclick="getdados()">
+      Calculate
+    </button>
   </body>
 
   <script src="3.1-calculator.js" type="text/javascript"></script>
