@@ -1,1 +1,1 @@
-console.log("being bold, this is JavaScript");
+<code>console.log("being bold, this is JavaScript");</code>
